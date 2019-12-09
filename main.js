@@ -15,6 +15,7 @@ winner_container.appendChild(text2);
 
 const vbtn = document.getElementById("vbtnId");
 
+//表示ボタン
 let sign = false;
 vbtn.addEventListener('click',function(){
 	let table = document.getElementById('tableId');
@@ -27,15 +28,27 @@ vbtn.addEventListener('click',function(){
 	}
 })
 
+//ダウンロードボタン
 const download_container = document.getElementById('download-container');
 const download_btn = document.getElementById('dbtnId');
 download_btn.addEventListener('click',downloadCsv)
 
 function math(){
+	const input1 = document.getElementById('input1');
+	const input2 = document.getElementById('input2');
+	let val1 = input1.value;
+	let val2 = input2.value;
+	if(val1 > val2 || !val1 || val2){return}
+	const i_container = document.getElementById('input-container');
+	i_container.style.display = "none";
+	
 	download_btn.style.visibility = "visible";
 	vbtn.style.visibility = "visible";
-	const min = 1;
-	const max = 1000;
+	let min = 1;
+	let max = 1000;
+	min = input1.value;
+	max = input2.value;
+	
 	const random = min + Math.floor( Math.random() * ( max - min + 1) );
 	if(winner.indexOf(random) !== -1){
 		console.log('重複です');
