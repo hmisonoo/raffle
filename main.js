@@ -45,10 +45,8 @@ function math(){
 	
 	download_btn.style.visibility = "visible";
 	vbtn.style.visibility = "visible";
-	let min = 1;
-	let max = 1000;
-	min = input1.value;
-	max = input2.value;
+	let min = val1;
+	let max = val2;
 	
 	const random = min + Math.floor( Math.random() * ( max - min + 1) );
 	if(winner.indexOf(random) !== -1){
