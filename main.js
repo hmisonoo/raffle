@@ -35,7 +35,7 @@ download_btn.addEventListener('click',downloadCsv)
 
 function math(){
 	let val1 = document.getElementById('input1').value;
-	let val2 = document.getElementById('input2');
+	let val2 = document.getElementById('input2').value;
 	if(val1 > val2 || !val1 || !val2){
 	alert('範囲の指定に誤りがあります');
 		return;
