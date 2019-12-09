@@ -34,8 +34,8 @@ const download_btn = document.getElementById('dbtnId');
 download_btn.addEventListener('click',downloadCsv)
 
 function math(){
-	let min = document.getElementById('input1').value;
-	let max = document.getElementById('input2').value;
+	let min = parseInt(document.getElementById('input1').value,10);
+	let max = parseInt(document.getElementById('input2').value,10);
 	if(min > max || !min || !max){
 		alert('範囲の指定に誤りがあります');
 		return;
