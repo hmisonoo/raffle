@@ -32,6 +32,10 @@ body{
   font-size:30px;
 }
 
+#input1 #input2{
+  font-size:30px;
+}
+
 #text-container{
   margin-top:10%;
   font-size:150px;
