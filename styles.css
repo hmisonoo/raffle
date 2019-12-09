@@ -26,6 +26,10 @@ body{
   cursor: pointer;
 }
 
+#winner-container{
+  font-color:red;
+}
+
 #input-container{
   margin:10px;
   padding:10px;
