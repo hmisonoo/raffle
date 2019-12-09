@@ -1,0 +1,58 @@
+body{
+  width:auto;
+  height:auto;
+  text-align:center;
+}
+
+#header{
+  width:auto;
+  text-align:center;
+  background-color:#ff0000;
+}
+
+#btnId{
+  font-size:40px;
+  background-color:#ff0000;
+  border-style:none;
+  color:#ffffff;
+  width:100%;
+}
+#btnId:hover{
+  opacity:0.7; 
+  cursor: pointer;
+}
+
+#text-container{
+  margin-top:10%;
+  font-size:150px;
+}
+
+td{
+  padding-left:20px;
+  font-size:20px;
+}
+
+#dbtnId{
+  font-size:20px;
+  margin:30px;
+  padding:10px;
+  background-color:white;
+  color:blue;
+  border-style:none;
+  visibility:hidden;
+}
+
+#vbtnId{
+  font-size:20px;
+  margin:30px;
+  padding:10px;
+  background-color:white;
+  color:blue;
+  border-style:none;
+  visibility:hidden;
+}
+
+#tableId{
+  margin:auto;
+  visibility:hidden;
+}
