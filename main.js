@@ -34,10 +34,10 @@ const download_btn = document.getElementById('dbtnId');
 download_btn.addEventListener('click',downloadCsv)
 
 function math(){
-	let val1 = document.getElementById('input1').value;
-	let val2 = document.getElementById('input2').value;
-	if(val1 > val2 || !val1 || !val2){
-	alert('範囲の指定に誤りがあります');
+	let min = document.getElementById('input1').value;
+	let max = document.getElementById('input2').value;
+	if(min > max || !min || !max){
+		alert('範囲の指定に誤りがあります');
 		return;
 	}
 	const i_container = document.getElementById('input-container');
@@ -45,8 +45,6 @@ function math(){
 	
 	download_btn.style.visibility = "visible";
 	vbtn.style.visibility = "visible";
-	let min = parseInt(val1,10);
-	let max = parseInt(val2,10);
 	
 	const random = min + Math.floor( Math.random() * ( max - min + 1) );
 	if(winner.indexOf(random) !== -1){
