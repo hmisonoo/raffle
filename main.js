@@ -53,7 +53,7 @@ function math(){
 	}else{
 		let count = winner.length + 1;
 		text1.textContent = random;
-		text2.textContent = "当選者　" + count + "　／　"+　max + "名";
+		text2.textContent = "当選者　" + count + "　／　"+　max - min + "名";
 		console.log(random);
 		const tbody = document.getElementById('tbodyId');
 		const newRow = tbody.insertRow();
