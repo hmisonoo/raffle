@@ -66,15 +66,16 @@ function math(){
 		newCell_2.appendChild(newText_2);
 		winner.push(random);
 		if(winner.length === max){
-			function maxAlert(){
-			const b_container = document.getElementById('header');
-			b_container.removeChild(button)
-			alert('抽選終了')
-			}
-			setTimeout(maxAlert,3000);
+			setTimeout(maxAlert,1000);
 		}
 
 	}
+}
+
+function maxAlert(){
+	const b_container = document.getElementById('header');
+	b_container.removeChild(button)
+	alert('抽選終了')
 }
 
 function downloadCsv(){
