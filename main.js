@@ -38,7 +38,10 @@ function math(){
 	const input2 = document.getElementById('input2');
 	let val1 = input1.value;
 	let val2 = input2.value;
-	if(val1 > val2 || !val1 || val2){return}
+	if(val1 > val2 || !val1 || val2){
+	alert('範囲の指定に誤りがあります');
+		return;
+	}
 	const i_container = document.getElementById('input-container');
 	i_container.style.display = "none";
 	
