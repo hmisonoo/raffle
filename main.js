@@ -1,3 +1,5 @@
+document.form1.input1.focus();
+
 const button = document.getElementById('btnId');
 button.addEventListener('click',math);
 
