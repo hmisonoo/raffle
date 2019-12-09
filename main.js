@@ -56,7 +56,7 @@ function math(){
 		math();
 	}else{
 		let count = winner.length + 1;
-		text1.textContent = random;
+		text1.textContent = random + "番";
 		text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
 		console.log(random);
 		const tbody = document.getElementById('tbodyId');
