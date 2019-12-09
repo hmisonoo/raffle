@@ -4,6 +4,7 @@ button.addEventListener('click',math);
 const text_container = document.getElementById('text-container');
 let text1 = document.createElement("text");
 text1.textContent = "　";
+text1.style.color = "#ff0000";
 text_container.appendChild(text1);
 
 let winner = [];
