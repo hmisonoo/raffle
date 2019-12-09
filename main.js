@@ -36,7 +36,7 @@ download_btn.addEventListener('click',downloadCsv)
 function math(){
 	let min = parseInt(document.getElementById('input1').value,10);
 	let max = parseInt(document.getElementById('input2').value,10);
-	let persons = max - min;
+	let persons = max - min + 1;
 	if(min > max || !min || !max){
 		alert('範囲の指定に誤りがあります');
 		return;
