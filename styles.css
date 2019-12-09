@@ -8,10 +8,11 @@ body{
   width:auto;
   text-align:center;
   background-color:#ff0000;
+  padding:20px;
 }
 
 #btnId{
-  font-size:40px;
+  font-size:50px;
   background-color:#ff0000;
   border-style:none;
   color:#ffffff;
@@ -29,11 +30,11 @@ body{
 
 td{
   padding-left:20px;
-  font-size:20px;
+  font-size:30px;
 }
 
 #dbtnId{
-  font-size:20px;
+  font-size:30px;
   margin:30px;
   padding:10px;
   background-color:white;
@@ -43,7 +44,7 @@ td{
 }
 
 #vbtnId{
-  font-size:20px;
+  font-size:30px;
   margin:30px;
   padding:10px;
   background-color:white;
