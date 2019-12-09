@@ -66,9 +66,9 @@ function math(){
 		newCell_2.appendChild(newText_2);
 		winner.push(random);
 		if(winner.length === max){
-			alert('抽選終了')
 			const b_container = document.getElementById('header');
 			b_container.removeChild(button)
+			alert('抽選終了')
 		}
 
 	}
