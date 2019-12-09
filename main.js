@@ -10,6 +10,7 @@ let winner = [];
 const winner_container = document.getElementById('winner-container');
 let text2 = document.createElement("text");
 text2.textContent = "　";
+text2.id = "text2Id";
 winner_container.appendChild(text2);
 
 const vbtn = document.getElementById("vbtnId");
