@@ -71,7 +71,7 @@ function math(){
 			b_container.removeChild(button)
 			alert('抽選終了')
 			}
-			setTimeout(maxAlert,10000);
+			setTimeout(maxAlert,3000);
 		}
 
 	}
