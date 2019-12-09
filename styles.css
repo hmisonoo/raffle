@@ -24,6 +24,12 @@ body{
   cursor: pointer;
 }
 
+#input-container{
+  margin:10px;
+  padding:10px;
+  font-size:30px;
+}
+
 #text-container{
   margin-top:10%;
   font-size:150px;
