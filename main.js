@@ -57,25 +57,26 @@ function math(){
 	}else{
 		let image = document.getElementById('imageId');
 		image.src = "Webp.net-gifmaker.gif";
+		text1.textContent = "";
 		setTimeout(writing,5000);
 		function writing(){
-		image.src = "";
-		let count = winner.length + 1;
-		text1.textContent = random + "番";
-		text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
-		console.log(random);
-		const tbody = document.getElementById('tbodyId');
-		const newRow = tbody.insertRow();
-		const newCell_1 = newRow.insertCell(0);
-		const newCell_2 = newRow.insertCell(1);
-		const newText_1  = document.createTextNode(count　+　"人目");
-		const newText_2  = document.createTextNode(random + "番");
-		newCell_1.appendChild(newText_1);
-		newCell_2.appendChild(newText_2);
-		winner.push(random);
-		if(winner.length === max){
-			setTimeout(buttonRemove,1000);
-		}
+			image.src = "";
+			let count = winner.length + 1;
+			text1.textContent = random + "番";
+			text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
+			console.log(random);
+			const tbody = document.getElementById('tbodyId');
+			const newRow = tbody.insertRow();
+			const newCell_1 = newRow.insertCell(0);
+			const newCell_2 = newRow.insertCell(1);
+			const newText_1  = document.createTextNode(count　+　"人目");
+			const newText_2  = document.createTextNode(random + "番");
+			newCell_1.appendChild(newText_1);
+			newCell_2.appendChild(newText_2);
+			winner.push(random);
+			if(winner.length === max){
+				setTimeout(buttonRemove,1000);
+			}
 		}
 	}
 }
