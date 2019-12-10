@@ -56,7 +56,7 @@ function math(){
 		math();
 	}else{
 		let image = document.getElementById('imageId');
-		image.src = "Webp.net-gifmaker.gif";
+		image.style.display = "block";
 		text1.textContent = "";
 		setTimeout(writing,5000);
 		function writing(){
