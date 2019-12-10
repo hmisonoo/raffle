@@ -59,6 +59,7 @@ function math(){
 		image.src = "Webp.net-gifmaker.gif";
 		setTimeout(writing,5000);
 		function writing(){
+		image.src = "";
 		let count = winner.length + 1;
 		text1.textContent = random + "番";
 		text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
