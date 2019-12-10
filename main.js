@@ -60,7 +60,7 @@ function math(){
 		text1.textContent = "";
 		setTimeout(writing,5000);
 		function writing(){
-			image.src = "";
+			image.style.display = none;
 			let count = winner.length + 1;
 			text1.textContent = random + "番";
 			text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
