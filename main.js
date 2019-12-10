@@ -55,6 +55,10 @@ function math(){
 		console.log('重複です');
 		math();
 	}else{
+		let image = document.getElementById('imageId');
+		image.src = "Webp.net-gifmaker.gif";
+		setTimeout(writing,5000);
+		function writing(){
 		let count = winner.length + 1;
 		text1.textContent = random + "番";
 		text2.textContent = "当選者　" + count + "　／　"+　persons + "名";
@@ -71,7 +75,7 @@ function math(){
 		if(winner.length === max){
 			setTimeout(buttonRemove,1000);
 		}
-
+		}
 	}
 }
 
