@@ -10,7 +10,11 @@ body{
   background-color:#ff0000;
   margin:0;
 }
-
+#imageId{
+  display:none;
+  width:300px;
+  height:300px;
+}
 #btnId{
   font-size:50px;
   background-color:#ff0000;
