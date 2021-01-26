@@ -58,7 +58,7 @@ function math(){
 		let image = document.getElementById('imageId');
 		image.style.display = "block";
 		text1.textContent = "";
-		setTimeout(writing,5000);
+		setTimeout(writing, 3000);
 		function writing(){
 			image.style.display = "none";
 			let count = winner.length + 1;
