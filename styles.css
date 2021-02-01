@@ -20,7 +20,7 @@ body{
   font-size:50px;
   background-color:#ff0000;
   border-style:none;
-  color:#ffffff;
+  color:#fff;
   width:100%;
   padding:30px;
   margin:0;
@@ -43,22 +43,22 @@ body{
 }
 
 #text-container{
-  margin-top:10%;
-  font-size:150px;
+  margin: 10%;
+  font-size: 150px;
 }
 
 #text2Id{
-  font-size:30px;
+  font-size: 30px;
 }
 
 #dbtnId{
-  font-size:30px;
-  margin:30px;
-  padding:10px;
+  font-size: 30px;
+  margin: 30px;
+  padding: 10px;
   background-color:white;
   color:blue;
-  border-style:none;
-  visibility:hidden;
+  border-style: none;
+  visibility: hidden;
 }
 
 #vbtnId{
