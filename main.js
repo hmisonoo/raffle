@@ -52,7 +52,7 @@ function math(){
 	
 	const random = min + Math.floor( Math.random() * ( max - min + 1) );
 	if(winner.indexOf(random) !== -1){
-		console.log('重複です');
+		// console.log('重複です');
 		math();
 	}else{
 		let image = document.getElementById('imageId');
@@ -64,7 +64,7 @@ function math(){
 			let count = winner.length + 1;
 			text1.textContent = random + "番";
 			text2.textContent = `当選者：${count}名　　応募者：${persons}名`;
-			console.log(random);
+			// console.log(random);
 			const tbody = document.getElementById('tbodyId');
 			const newRow = tbody.insertRow();
 			const newCell_1 = newRow.insertCell(0);

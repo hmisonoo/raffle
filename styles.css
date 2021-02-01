@@ -10,12 +10,14 @@ body{
   background-color:#ff0000;
   margin:0;
 }
+
 #imageId{
   display:none;
   width:300px;
   height:300px;
   margin:auto;
 }
+
 #btnId{
   font-size:50px;
   background-color:#ff0000;
@@ -49,6 +51,10 @@ body{
 
 #text2Id{
   font-size: 30px;
+}
+
+#download-container{
+  margin-top: 20%;
 }
 
 #dbtnId{
