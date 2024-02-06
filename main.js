@@ -75,7 +75,7 @@ function math(){
 			newCell_2.appendChild(newText_2);
 			winner.push(random);
 			if(winner.length === max){
-				setTimeout(buttonRemove,1000);
+				setTimeout(buttonRemove,500);
 			}
 		}
 	}
