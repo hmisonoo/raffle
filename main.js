@@ -58,7 +58,7 @@ function math(){
 		let image = document.getElementById('imageId');
 		image.style.display = "block";
 		text1.textContent = "";
-		setTimeout(writing, 500);
+		setTimeout(writing, 1000);
 		function writing(){
 			image.style.display = "none";
 			let count = winner.length + 1;
@@ -75,7 +75,7 @@ function math(){
 			newCell_2.appendChild(newText_2);
 			winner.push(random);
 			if(winner.length === max){
-				setTimeout(buttonRemove,500);
+				setTimeout(buttonRemove,1000);
 			}
 		}
 	}
